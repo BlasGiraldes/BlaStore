@@ -91,6 +91,11 @@ h3{
     color: var(--blanco);
 }
 
+@media (max-width: 768px) {
+    .footer { 
+      width: 100%;
+    }
+}
 
 .footer__texto {
         font-family: var(--fuentePrincipal);
@@ -271,7 +276,11 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
 }
-
+@media (max-width: 768px) {
+    .formulario__campo { 
+      width: 100%;
+    }
+}
 .formulario__submit{
     background-color: var(--secundario);
     border: none;
